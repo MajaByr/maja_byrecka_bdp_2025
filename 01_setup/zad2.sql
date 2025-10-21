@@ -1,5 +1,5 @@
 /* ======================= Task 4 ======================= */
-/*
+
 CREATE TABLE buildings (
   id SERIAL PRIMARY KEY,
   geometry GEOMETRY,
@@ -17,11 +17,10 @@ CREATE TABLE poi (
   geometry GEOMETRY,
   name VARCHAR(255)
 ); 
-*/
+
 
 /* ======================= Task 5 ======================= */
 
-/*
 INSERT INTO roads (geometry, name) VALUES
 	('LINESTRING(7.5 10.5, 7.5 0)', 'RoadY'),
 	('LINESTRING(0 4.5, 12 4.5)', 'RoadX');
@@ -39,7 +38,7 @@ INSERT INTO buildings (geometry, name) VALUES
 	('POLYGON((3 8, 5 8, 5 6, 3 6, 3 8))', 'BuildingC'),
 	('POLYGON((9 9, 10 9, 10 8, 9 8, 9 9))', 'BuildingD'),
 	('POLYGON((1 2, 2 2, 2 1, 1 1, 1 2))', 'BuildingF');
-*/
+
 
 /* ======================= Task 5 ======================= */
 
