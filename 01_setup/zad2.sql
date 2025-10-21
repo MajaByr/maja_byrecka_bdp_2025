@@ -40,7 +40,7 @@ INSERT INTO buildings (geometry, name) VALUES
 	('POLYGON((1 2, 2 2, 2 1, 1 1, 1 2))', 'BuildingF');
 
 
-/* ======================= Task 5 ======================= */
+/* ======================= Task 6 ======================= */
 
 -- a - select summed length of roads
 SELECT SUM(ST_Length(geometry)) FROM roads;
