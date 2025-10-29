@@ -19,8 +19,8 @@ INSERT INTO objects (geometry, name) VALUES
 INSERT INTO objects (geometry, name) VALUES
 (
     ST_Difference(
-        ST_LineToCurve(ST_GeomFromText('LINESTRING(10 6, 14 6, 16 4, 14 2, 12 0, 10 2, 10 6)')),
-        ST_LineToCurve(ST_GeomFromText('LINESTRING(11 2, 13 2, 11 2, 11 2)'))
+        ST_MakePolygon(ST_LineToCurve(ST_GeomFromText('LINESTRING(10 6, 14 6, 16 4, 14 2, 12 0, 10 2, 10 6)'))),
+        ST_MakePolygon(ST_LineToCurve(ST_GeomFromText('LINESTRING(11 2, 13 2, 11 2, 11 2)')))
     ),
     'obiekt2'
 );
